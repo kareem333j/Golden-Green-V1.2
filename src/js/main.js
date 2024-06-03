@@ -256,11 +256,11 @@ document.querySelector('.lang').onchange = (e)=>{
     }
 }
 function arLang(){
-    window.location.replace(`http://${window.location.hostname}:${window.location.port}/public/index-ar.html`);
+    window.location.replace(`http://${window.location.hostname}:${window.location.port}/Golden-Green-V1.2/public/index-ar.html`);
     window.localStorage.setItem('language', 'ar');
 }
 function enLang(){
-    window.location.replace(`http://${window.location.hostname}:${window.location.port}/index.html`);
+    window.location.replace(`http://${window.location.hostname}:${window.location.port}/Golden-Green-V1.2/index.html`);
     window.localStorage.setItem('language', 'en');
 }
 
